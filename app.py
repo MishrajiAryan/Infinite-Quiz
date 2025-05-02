@@ -48,5 +48,7 @@ def flag_question(question_id):
 
     return jsonify({'success': True, 'flagged': flagged})
 
-if __name__ == '__main__':
-    app.run(debug=True)
+PORT = int(os.environ.get("PORT", 10000))
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=PORT)

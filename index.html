@@ -21,6 +21,11 @@
             color: #00b4d8;
             letter-spacing: 1px;
         }
+        #question-text {
+            color: #fafafa !important;
+            font-weight: 600;
+            font-size: 1.25rem;
+        }
         .option-btn {
             background: #23272b;
             color: #e0e0e0;
@@ -93,7 +98,7 @@
                     </h3>
                     <div id="question-area">
                         <div id="question-number" class="question-meta mb-2"></div>
-                        <div id="question-text" class="mb-4 fs-5"></div>
+                        <div id="question-text" class="mb-4"></div>
                         <div id="options-list" class="list-group mb-4"></div>
                     </div>
                     <div class="d-flex justify-content-between gap-2">
@@ -176,10 +181,16 @@ function handleOptionClick(btn, q, selected) {
     // Prevent clicking if already correct
     if (btn.classList.contains('correct')) return;
 
+    // Disable all buttons after a correct answer
     if (selected === q.correct_option) {
         btn.classList.add('correct');
-        // Disable all buttons
-        document.querySelectorAll('.option-btn').forEach(b => b.disabled = true);
+        // Disable all buttons except the correct one
+        document.querySelectorAll('.option-btn').forEach(b => {
+            b.disabled = true;
+            if (b !== btn) {
+                b.classList.remove('correct', 'incorrect');
+            }
+        });
         setTimeout(() => {
             nextQuestion();
         }, 1200);
