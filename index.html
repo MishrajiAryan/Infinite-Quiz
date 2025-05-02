@@ -181,16 +181,11 @@ function handleOptionClick(btn, q, selected) {
     // Prevent clicking if already correct
     if (btn.classList.contains('correct')) return;
 
-    // Disable all buttons after a correct answer
     if (selected === q.correct_option) {
+        // Add 'correct' only to the clicked button
         btn.classList.add('correct');
-        // Disable all buttons except the correct one
-        document.querySelectorAll('.option-btn').forEach(b => {
-            b.disabled = true;
-            if (b !== btn) {
-                b.classList.remove('correct', 'incorrect');
-            }
-        });
+        // Disable all buttons
+        document.querySelectorAll('.option-btn').forEach(b => b.disabled = true);
         setTimeout(() => {
             nextQuestion();
         }, 1200);
@@ -201,6 +196,7 @@ function handleOptionClick(btn, q, selected) {
         }, 800);
     }
 }
+
 
 function nextQuestion() {
     current = (current + 1) % questions.length;
