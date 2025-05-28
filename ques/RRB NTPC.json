@@ -1,0 +1,47 @@
+[
+    {
+        "question": "Who was the 13th Prime Minister of India who passed away recently?",
+        "option_a": "Chandrasekhar",
+        "option_b": "B.P. Singh",
+        "option_c": "Narasimha Rao",
+        "option_d": "Dr. Manmohan Singh",
+        "correct_option": "D",
+        "flag": false
+    },
+    {
+        "question": "Which country has approved the world's largest dam on the Brahmaputra river?",
+        "option_a": "China",
+        "option_b": "Bhutan",
+        "option_c": "India",
+        "option_d": "Bangladesh",
+        "correct_option": "A",
+        "flag": false
+    },
+    {
+        "question": "Shyam Benegal has passed away recently. Who was he?",
+        "option_a": "Film Producer",
+        "option_b": "Actor",
+        "option_c": "Politicians",
+        "option_d": "Story-writer",
+        "correct_option": "A",
+        "flag": false
+    },
+    {
+        "question": "Recently the indigenous date palm of which state has got GI tag?",
+        "option_a": "Rajasthan",
+        "option_b": "Haryana",
+        "option_c": "Karnataka",
+        "option_d": "Gujarat",
+        "correct_option": "D",
+        "flag": false
+    },
+    {
+        "question": "In which state will PM Modi lay the foundation stone of Ken-Betwa River Linking National Project?",
+        "option_a": "Madhya Pradesh",
+        "option_b": "Chhattisgarh",
+        "option_c": "Rajasthan",
+        "option_d": "Maharashtra",
+        "correct_option": "A",
+        "flag": false
+    }
+]

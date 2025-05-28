@@ -1,0 +1,20 @@
+[
+    {
+        "question": "Who founded the Brahmo Samaj?",
+        "option_a": "Ram Mohan Roy",
+        "option_b": "Swami Vivekananda",
+        "option_c": "Gopal Krishna Gokhale",
+        "option_d": "Rambai Ranade",
+        "correct_option": "A",
+        "flag": false
+    },
+    {
+        "question": "What is the capital of France?",
+        "option_a": "Berlin",
+        "option_b": "Madrid",
+        "option_c": "Paris",
+        "option_d": "Rome",
+        "correct_option": "C",
+        "flag": false
+    }
+]
