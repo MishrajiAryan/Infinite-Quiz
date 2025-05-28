@@ -39,6 +39,3 @@ def flag_question():
         json.dump(questions, f, indent=4)
         f.truncate()
     return jsonify({'status': 'toggled'})
-
-if __name__ == '__main__':
-    app.run(debug=True)

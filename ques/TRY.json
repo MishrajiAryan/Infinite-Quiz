@@ -1,0 +1,281 @@
+[
+    {
+        "question": "Who was the 13th Prime Minister of India who passed away recently?",
+        "option_a": "Chandrasekhar",
+        "option_b": "B.P. Singh",
+        "option_c": "Narasimha Rao",
+        "option_d": "Dr. Manmohan Singh MD",
+        "correct_option": "D",
+        "flag": false
+    },
+    {
+        "question": "Which country has approved the world's largest dam on the Brahmaputra river?",
+        "option_a": "China",
+        "option_b": "Bhutan",
+        "option_c": "India",
+        "option_d": "Bangladesh",
+        "correct_option": "A",
+        "flag": false
+    },
+    {
+        "question": "Shyam Benegal has passed away recently. Who was he?",
+        "option_a": "Film Producer",
+        "option_b": "Actor",
+        "option_c": "Politicians",
+        "option_d": "Story-writer",
+        "correct_option": "A",
+        "flag": false
+    },
+    {
+        "question": "Recently the indigenous date palm of which state has got GI tag?",
+        "option_a": "Rajasthan",
+        "option_b": "Haryana",
+        "option_c": "Karnataka",
+        "option_d": "Gujarat",
+        "correct_option": "D",
+        "flag": false
+    },
+    {
+        "question": "In which state will PM Modi lay the foundation stone of Ken-Betwa River Linking National Project?",
+        "option_a": "Madhya Pradesh",
+        "option_b": "Chhattisgarh",
+        "option_c": "Rajasthan",
+        "option_d": "Maharashtra",
+        "correct_option": "A",
+        "flag": false
+    },
+    {
+        "question": "Where did the Ambedkar Scholarship Scheme start?",
+        "option_a": "Madhya Pradesh",
+        "option_b": "Telangana",
+        "option_c": "Rajasthan",
+        "option_d": "Delhi",
+        "correct_option": "D",
+        "flag": false
+    },
+    {
+        "question": "Ustad Zakir Hussain has passed away. He was associated with which musical instrument?",
+        "option_a": "Veena",
+        "option_b": "Sarangi",
+        "option_c": "Tabla",
+        "option_d": "Flute",
+        "correct_option": "C",
+        "flag": false
+    },
+    {
+        "question": "Who is Paulo Rangel, who visited India recently?",
+        "option_a": "UK Foreign Secretary",
+        "option_b": "Foreign Minister of Portugal",
+        "option_c": "Foreign Minister of Jordan",
+        "option_d": "Foreign Minister of France",
+        "correct_option": "B",
+        "flag": false
+    },
+    {
+        "question": "Madhya Pradesh's famous Baiga artist Jodhiya Amma has passed away. In which year was she awarded the Padma Shri?",
+        "option_a": "2021",
+        "option_b": "2022",
+        "option_c": "2023",
+        "option_d": "2024",
+        "correct_option": "C",
+        "flag": false
+    },
+    {
+        "question": "Which state has become the first to launch India's first Yoga policy?",
+        "option_a": "Jharkhand",
+        "option_b": "Rajasthan",
+        "option_c": "Haryana",
+        "option_d": "Uttarakhand",
+        "correct_option": "C",
+        "flag": false
+    },
+    {
+        "question": "Which city has made it a crime to give alms or money to beggars from 1st January 2025?",
+        "option_a": "New Delhi",
+        "option_b": "Bhopal",
+        "option_c": "Indore",
+        "option_d": "Bangalore",
+        "correct_option": "C",
+        "flag": false
+    },
+    {
+        "question": "Who has been sworn in as the Chief Minister of Jharkhand?",
+        "option_a": "Raghuvar Das",
+        "option_b": "Babulal Marandi",
+        "option_c": "Arjun Munda",
+        "option_d": "Hemant Soren",
+        "correct_option": "D",
+        "flag": false
+    },
+    {
+        "question": "Recently, which has been declared as the first Ramsar site of Sikkim?",
+        "option_a": "Tsomgo Lake",
+        "option_b": "Khecheopalri Wetland",
+        "option_c": "Gurudongmar Lake",
+        "option_d": "Teesta River",
+        "correct_option": "B",
+        "flag": false
+    },
+    {
+        "question": "Recently, in which state industrial park will be set up for women entrepreneurs?",
+        "option_a": "Odisha",
+        "option_b": "Gujarat",
+        "option_c": "Karnataka",
+        "option_d": "Rajasthan",
+        "correct_option": "A",
+        "flag": false
+    },
+    {
+        "question": "Where is the All India Conference of Directors General and Inspectors General of Police being held?",
+        "option_a": "Bhopal",
+        "option_b": "Bhubaneswar",
+        "option_c": "New Delhi",
+        "option_d": "Bangalore",
+        "correct_option": "A",
+        "flag": false
+    },
+    {
+        "question": "What is the theme of the Semicon India 2024 conference?",
+        "option_a": "\"Nation the Semiconductor Future\"",
+        "option_b": "\"We the Semiconductor Future\"",
+        "option_c": "\"Shaping the Semiconductor Future\"",
+        "option_d": "\"India the Semiconductor Future\"",
+        "correct_option": "C",
+        "flag": false
+    },
+    {
+        "question": "Who will be the new Chief Minister of Jharkhand?",
+        "option_a": "Champai Soren",
+        "option_b": "Hemant Soren",
+        "option_c": "Babulal Marandi",
+        "option_d": "Arjun Munda",
+        "correct_option": "A",
+        "flag": false
+    },
+    {
+        "question": "Where will the BIMSTEC Energy Centre be set up?",
+        "option_a": "Bangalore",
+        "option_b": "Chennai",
+        "option_c": "Kolkata",
+        "option_d": "New Delhi",
+        "correct_option": "C",
+        "flag": false
+    },
+    {
+        "question": "According to the recent Forbes report, what position has India got in terms of gold reserves?",
+        "option_a": "7th",
+        "option_b": "8th",
+        "option_c": "9th",
+        "option_d": "10th",
+        "correct_option": "C",
+        "flag": false
+    },
+    {
+        "question": "Who has recently become the new Chief Minister of Jharkhand?",
+        "option_a": "Hemant Soren",
+        "option_b": "Champai Soren",
+        "option_c": "Sibu Soren",
+        "option_d": "Kalpana Soren",
+        "correct_option": "B",
+        "flag": false
+    },
+    {
+        "question": "Recently which country has announced the release of a new ₹ 100 note depicting the Indian territory?",
+        "option_a": "China",
+        "option_b": "Pakistan",
+        "option_c": "Maldives",
+        "option_d": "Nepal",
+        "correct_option": "D",
+        "flag": false
+    },
+    {
+        "question": "Recently 100 tonnes of gold has been brought to India by RBI from which country?",
+        "option_a": "Germany",
+        "option_b": "USA",
+        "option_c": "France",
+        "option_d": "Britain",
+        "correct_option": "D",
+        "flag": false
+    },
+    {
+        "question": "What will the Union Government do by revising the base year for GDP calculation from 2011-12?",
+        "option_a": "2022-23",
+        "option_b": "2021-22",
+        "option_c": "2019-20",
+        "option_d": "2018-19",
+        "correct_option": "A",
+        "flag": false
+    },
+    {
+        "question": "What is the full form of the recently launched U-Win Portal?",
+        "option_a": "Universal Immunisation Programme",
+        "option_b": "Universal Immunity Programme",
+        "option_c": "Universal Identity Programme",
+        "option_d": "Universal Migration Programme",
+        "correct_option": "A",
+        "flag": false
+    },
+    {
+        "question": "Where has India's first diabetes biobank been launched?",
+        "option_a": "Mumbai",
+        "option_b": "Bangalore",
+        "option_c": "Pune",
+        "option_d": "Chennai",
+        "correct_option": "D",
+        "flag": false
+    },
+    {
+        "question": "Which constitutional amendment bill has been introduced in the Lok Sabha for 'one country-one election'?",
+        "option_a": "139th",
+        "option_b": "140th",
+        "option_c": "188th",
+        "option_d": "129th",
+        "correct_option": "C",
+        "flag": false
+    },
+    {
+        "question": "Ramlala Darshan Yojana has been started by which state government?",
+        "option_a": "Chhattisgarh",
+        "option_b": "Uttar Pradesh",
+        "option_c": "Madhya Pradesh",
+        "option_d": "Uttarakhand",
+        "correct_option": "B",
+        "flag": false
+    },
+    {
+        "question": "Which state government has started the Pirul Lao Paise Paao Abhiyan?",
+        "option_a": "Haryana",
+        "option_b": "Himachal Pradesh",
+        "option_c": "Uttarakhand",
+        "option_d": "Punjab",
+        "correct_option": "C",
+        "flag": false
+    },
+    {
+        "question": "Mukhyamantri Nijut Modna Yojana has been started by which state government?",
+        "option_a": "Sikkim",
+        "option_b": "Arunachal Pradesh",
+        "option_c": "Assam",
+        "option_d": "Tripura",
+        "correct_option": "C",
+        "flag": false
+    },
+    {
+        "question": "Chief Minister Mannuyir Kathu Mannuyir Kappom Scheme has been started by which state government?",
+        "option_a": "Tamil Nadu",
+        "option_b": "Kerala",
+        "option_c": "Andhra Pradesh",
+        "option_d": "Telangana",
+        "correct_option": "A",
+        "flag": false
+    },
+    {
+        "question": "Which is the nodal ministry for the 'National Forensic Infrastructure Enhancement Scheme'?",
+        "option_a": "Ministry of Health",
+        "option_b": "Ministry of Home Affairs",
+        "option_c": "Ministry of Education",
+        "option_d": "Ministry of Finance",
+        "correct_option": "B",
+        "flag": false
+    }
+]
