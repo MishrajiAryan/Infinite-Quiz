@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <title>Update Topic</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-body text-body">
+  <div class="container mt-5">
+    <h2>Update Topic</h2>
+    <form method="POST" action="/update_topic">
+      <div class="mb-3">
+        <label for="topicSelect" class="form-label">Select Topic</label>
+        <select id="topicSelect" name="topic_name" class="form-select" onchange="this.form.submit()">
+          <option disabled selected>Choose topic</option>
+          {% for topic in topics %}
+          <option value="{{ topic }}" {% if topic == selected_topic %}selected{% endif %}>{{ topic }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      {% if content %}
+      <div class="mb-3">
+        <label for="topicContent" class="form-label">Edit JSON</label>
+        <textarea class="form-control" id="topicContent" name="topic_content" rows="15">{{ content }}</textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Update</button>
+      {% endif %}
+    </form>
+  </div>
+</body>
+</html>

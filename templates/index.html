@@ -52,6 +52,12 @@
 
     <h1 class="text-center mb-4">The ∞ Quiz</h1>
 
+    <div class="d-flex justify-content-between mb-3">
+      <a href="/create_topic" class="btn btn-success">Create New Topic</a>
+      <a href="/update_topic" class="btn btn-primary">Update a Topic</a>
+    </div>
+
+
     <div class="mb-3">
       <select id="topic-select" class="form-select">
         <option selected disabled>Choose Topic</option>
@@ -119,7 +125,7 @@
         btn.classList.add('correct');
         setTimeout(() => {
           fetchQuestion();
-        }, 2000);
+        }, 1000);
       } else {
         btn.classList.add('incorrect');
         setTimeout(() => {
