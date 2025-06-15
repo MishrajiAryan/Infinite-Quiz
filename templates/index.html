@@ -40,7 +40,6 @@
 </head>
 <body class="bg-body text-body">
   <div class="container mt-4 position-relative">
-    
     <div class="row align-items-center mb-3">
       <div class="col-12 toggle-switch">
         <div class="form-check form-switch">
@@ -52,19 +51,19 @@
 
     <h1 class="text-center mb-4">The ∞ Quiz</h1>
 
-    <div class="d-flex justify-content-between mb-3">
+    <div class="d-flex justify-content-between mb-3 flex-wrap gap-2">
       <a href="/create_topic" class="btn btn-success">Create New Topic</a>
       <a href="/update_topic" class="btn btn-primary">Update a Topic</a>
     </div>
 
-
-    <div class="mb-3">
+    <div class="mb-3 d-flex gap-2">
       <select id="topic-select" class="form-select">
         <option selected disabled>Choose Topic</option>
         {% for topic in topics %}
         <option value="{{ topic }}">{{ topic }}</option>
         {% endfor %}
       </select>
+      <button class="btn btn-danger" id="delete-topic-btn">Delete Topic</button>
     </div>
 
     <div id="quiz-container" class="card d-none">
@@ -89,7 +88,7 @@
     });
 
     function fetchQuestion() {
-      fetch(`/get_question/${currentTopic}`)
+      fetch(`/get_question/${encodeURIComponent(currentTopic)}`)
         .then(res => res.json())
         .then(data => {
           currentQuestion = data;
@@ -144,6 +143,28 @@
         document.getElementById('question-card').classList.toggle('flagged', currentQuestion.flag);
         document.getElementById('flag-btn').textContent = currentQuestion.flag ? 'Unflag Question' : 'Flag Question';
       });
+    });
+
+    document.getElementById('delete-topic-btn').addEventListener('click', () => {
+      if (!currentTopic) {
+        alert("Please select a topic to delete.");
+        return;
+      }
+
+      if (confirm(`Are you sure you want to delete the topic "${currentTopic}" and all its questions?`)) {
+        fetch('/delete_topic', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ topic: currentTopic })
+        }).then(res => {
+          if (res.ok) {
+            alert(`Topic "${currentTopic}" deleted successfully.`);
+            location.reload();
+          } else {
+            alert("Error deleting topic.");
+          }
+        });
+      }
     });
 
     // Dark mode toggle
