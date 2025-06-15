@@ -150,7 +150,3 @@ def delete_topic():
     QuizQuestion.query.filter_by(Title=topic).delete()
     db.session.commit()
     return "Deleted", 200
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
